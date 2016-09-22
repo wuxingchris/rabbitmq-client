@@ -1,4 +1,4 @@
-package com.lin.consumer;
+package com.chris.consumer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,11 +8,11 @@ import org.springframework.amqp.core.MessageListener;
 /**
  * Created by wuxing on 2016/9/21.
  */
-public class Wuxing implements MessageListener {
-    private Logger logger = LoggerFactory.getLogger(Chris.class);
+public class ChrisConsumer implements MessageListener {
+    private Logger logger = LoggerFactory.getLogger(ChrisConsumer.class);
 
     @Override
     public void onMessage(Message message) {
-        logger.info("wuxing receive message------->:{}", message);
+        logger.info("chris receive message------->:{}", message);
     }
 }

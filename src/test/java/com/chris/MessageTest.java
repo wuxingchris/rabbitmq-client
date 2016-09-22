@@ -1,7 +1,6 @@
-package com.lin;
+package com.chris;
 
-import com.lin.producer.MessageProducer;
-import com.rabbitmq.client.ConnectionFactory;
+import com.chris.producer.MessageProducer;
 import org.junit.Before;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -10,10 +9,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * 功能概要：
- *
- * @author linbingwen
- * @since 2016年1月15日
+ * Created by wuxing on 2016/9/21.
  */
 public class MessageTest {
 
